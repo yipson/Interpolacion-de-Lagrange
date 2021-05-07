@@ -1,0 +1,80 @@
+h1{
+    text-align: center;
+}
+.autores {
+    text-align: center;
+}
+.form{
+    text-align: center;
+}
+.tabla{
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+.contenedor__ejes{
+    padding-left: 48px;
+}
+.ejes{
+    display: flex;
+    flex-direction: row;
+}
+.ejes p {
+    margin: 0;
+    width: 100px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.unorder-list{
+    margin: 0rem;
+    list-style: none;
+}
+
+.datos__row{
+    display: flex;
+    flex-direction: row;
+}
+.datos__row p{
+    margin: 0;
+}
+.datos__row input{
+    width: 94px;
+}
+
+/* resultados */
+.resolver{
+    margin-top: 10px;
+}
+
+.resultados{
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+}
+
+.contenedor-l{
+    margin-top: 20px;
+}
+
+.dato-l{
+    display: flex;
+    gap: 15px;
+}
+
+.l{
+    margin: 5px;
+    display: flex;
+    align-items: center;
+}
+.l p {
+    margin: 0;
+}
+
+.resultado p{
+    margin: 0;
+}
+
+.denominador{
+    border-top: 1px solid black;
+}

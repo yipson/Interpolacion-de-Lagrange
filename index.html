@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interpolacion de Large</title>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Interpolacion de Large</h1>
+    <p class="autores">Diego Cadena & Sebastian Valencia</p>
+
+    <form class="form">
+        <div class="tabla">
+            <div class="contenedor__ejes">
+                <div class="ejes">
+                    <p>x</p>
+                    <p>y</p>
+                </div>
+            </div>
+            <div class="datos">
+                <ul class="unorder-list">
+                    <li class="datos__row" data-k="0">
+                        <p id="k" class="k">0</p>
+                        <input class="x datox-1" type="number">
+                        <input class="y datoy-1" type="number">
+                    </li>
+                    <li class="datos__row" data-k="1">
+                        <p id="k" class="k">1</p>
+                        <input class="x datox-2" type="number">
+                        <input class="y datoy-2" type="number">
+                    </li>
+                    <li class="datos__row" data-k="2">
+                        <p id="k" class="k">2</p>
+                        <input class="x datox-3" type="number">
+                        <input class="y datoy-3" type="number">
+                    </li>
+                    <li class="datos__row" data-k="3">
+                        <p id="k" class="k">3</p>
+                        <input class="x datox-4" type="number">
+                        <input class="y datoy-4" type="number">
+                    </li>
+                </ul>
+                <button class="resolver">Resolver</button>
+                <button class="graficar">Graficar</button>
+            </div>
+        </div>
+
+        <div id="resultados" class="resultados">
+
+
+            <!-- <div class="contenedor-l">
+                <div class="dato-l">
+                    <div class="l">
+                        <p >L0=</p>
+                    </div>
+                    <div class="resultado">
+                        <P class="numerador">x <sup>3</sup> + 3x<sup>2</sup> - 2x + 24</P>
+                        <p class="denominador">-6</p>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+
+        <div id="grafico"></div>
+    </form>
+
+    
+
+
+    <script src="app.js"></script>
+</body>
+</html>
